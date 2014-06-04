@@ -3,11 +3,11 @@ Wowza-Metric
 
 If you're using Wowza with "edge distribution" you might find this interesting.
 
-Sometimes you have a large number of "Wowza Edge Servers" running, and it's hard to monitoring the connections of these servers.
+Sometimes you have a large number of "Wowza Edge Servers" running, and it's hard to monitor the server's connections.
 
-This is a simple combination of a shell script and a python script, that provides the possibility of send information to AWS CloudWatch.
+This is a simple combination of a shell script and a python script, that provides the possibility of sending information to AWS CloudWatch.
 
-With these scripts you can send the to AWS CloudWatch, so you'll be able to monitoring each server individually or globally.
+With these scripts you can send the number of connections to AWS CloudWatch, so you'll be able to monitor each server individually or globally.
 
 You can also configure alarms and set "Auto Scaling" actions based on the metrics you're sending to CloudWatch.
 
